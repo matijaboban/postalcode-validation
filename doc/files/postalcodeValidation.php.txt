@@ -1,10 +1,12 @@
 <?php
 
 /**
- * Zip/postal code interactions
+ * Zip/postal code Validation Class
+ * The class can check validity of postal/zip code
  *
  * @author Matija Boban <code@matijaboban.com>
  * @version 0.1
+ * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
 
@@ -14,7 +16,7 @@ class PostalCodeValidation {
      * ZIP/postal code validation
      * The function checks whether the zip/postal code is valid
      *
-     * @access private
+     * @access public
      * @version  0.1
      * @param    $postal_code   string  Postal/ZIP code
      * @param    $country_code  string  two-letter ISO country code (ISO 3166-1 alpha-2)

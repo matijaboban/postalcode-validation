@@ -1,7 +1,8 @@
 <?php
 
 /**
- * Zip/postal code interactions
+ * Zip/postal code Validation Class
+ * The class can check validity of postal/zip code
  *
  * @author Matija Boban <code@matijaboban.com>
  * @version 0.1
